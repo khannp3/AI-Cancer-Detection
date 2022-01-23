@@ -74,6 +74,6 @@ for i in label:
     label_images.extend(sample)
     for id in label_images:
         shutil.copyfile((data_dir + "/"+ id +".jpg"), (dest_dir + i + "/"+id+".jpg"))
-    label_images=[]    
+    label_images=[]     
 
 #Now we are ready to work with images in subfolders
